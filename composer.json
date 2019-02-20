@@ -1,5 +1,5 @@
 {
-    "name": "arno1979/pdf-filename-mod",
+    "name": "arno1979/contao-pdf-filename-mod",
     "type": "contao-bundle",
     "description": "Modifies the filename of a PDF generated from an article to match the article's alias",
     "license": "LGPL-3.0-or-later",
