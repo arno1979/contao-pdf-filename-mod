@@ -1,3 +1,3 @@
 <?php
 
-$GLOBALS['TL_HOOKS']['printArticleAsPdf'][] = array('Arno1979\PdfHook', 'PdfFilenameMod');
+$GLOBALS['TL_HOOKS']['printArticleAsPdf'][] = array('Arno1979\PdfFilenameMod\PdfHook', 'PdfFilenameMod');

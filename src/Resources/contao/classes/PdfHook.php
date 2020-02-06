@@ -1,6 +1,6 @@
 <?php
 
-namespace Arno1979;
+namespace Arno1979\PdfFilenameMod;
 
 class PdfHook extends \Contao\Frontend {
     public function PdfFilenameMod($strArticle, $objArticle) {
