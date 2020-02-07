@@ -2,21 +2,14 @@
 
 declare(strict_types=1);
 
-/**
- * @copyright  Arno Schumacher 2020
- * @author     Arno Schumacher
- * @package    PdfFilename
- * @license    LGPL-3.0+
- */
-
-namespace Arno1979\PdfFilename\DependencyInjection;
+namespace Arno1979\HookTest\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 
-class Arno197PdfFilenameExtension extends Extension
+class Arno1979HookTestExtension extends Extension
 {
     /**
      * {@inheritdoc}

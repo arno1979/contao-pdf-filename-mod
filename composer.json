@@ -1,7 +1,7 @@
 {
-    "name": "arno1979/contao-pdf-filename-mod",
+    "name": "arno1979/contao-hook-test",
     "type": "contao-bundle",
-    "description": "Modifies the filename of a PDF generated from an article to match the article's alias",
+    "description": "Test hook implementation via service tagging",
     "license": "LGPL-3.0-or-later",
     "authors": [
         {
@@ -24,11 +24,11 @@
         "branch-alias": {
             "dev-develop": "1.0.x-dev"
         },
-        "contao-manager-plugin": "Arno1979\\PdfFilename\\ContaoManager\\Plugin"
+        "contao-manager-plugin": "Arno1979\\HookTest\\ContaoManager\\Plugin"
     },
     "autoload": {
         "psr-4": {
-            "Arno1979\\PdfFilename\\": "src/"
+            "Arno1979\\HookTest\\": "src/"
         }
     }
 }
