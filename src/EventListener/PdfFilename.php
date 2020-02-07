@@ -13,7 +13,6 @@ class PdfFilename implements ServiceAnnotationInterface
      */
     public function onprintArticleAsPdf(string $articleContent, ModuleArticle $module): void
     {
-        \log_message('Test2','arno.log');
-//          $module->title = $module->alias;
+         $module->title = $module->alias;
     }
 }
