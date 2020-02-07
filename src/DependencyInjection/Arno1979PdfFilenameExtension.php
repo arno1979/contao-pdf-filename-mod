@@ -5,18 +5,18 @@ declare(strict_types=1);
 /**
  * @copyright  Arno Schumacher 2020
  * @author     Arno Schumacher
- * @package    PdfFilenameMod
+ * @package    PdfFilename
  * @license    LGPL-3.0+
  */
 
-namespace Arno1979\PdfFilenameMod\DependencyInjection;
+namespace Arno1979\PdfFilename\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 
-class Arno197PdfFilenameModExtension extends Extension
+class Arno197PdfFilenameExtension extends Extension
 {
     /**
      * {@inheritdoc}

@@ -24,11 +24,11 @@
         "branch-alias": {
             "dev-develop": "1.0.x-dev"
         },
-        "contao-manager-plugin": "Arno1979\\PdfFilenameMod\\ContaoManager\\Plugin"
+        "contao-manager-plugin": "Arno1979\\PdfFilename\\ContaoManager\\Plugin"
     },
     "autoload": {
         "psr-4": {
-            "Arno1979\\PdfFilenameMod\\": "src/"
+            "Arno1979\\PdfFilename\\": "src/"
         }
     }
 }

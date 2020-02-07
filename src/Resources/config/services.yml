@@ -4,6 +4,6 @@ services:
         autoconfigure: true
         public: false
 
-    Arno1979\PdfFilenameMod\:
+    Arno1979\PdfFilename\:
         resource: ../../../src
         exclude: ../../../src/{Entity,Migrations,Resources,Tests}
