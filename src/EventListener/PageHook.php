@@ -1,6 +1,6 @@
 <?php
 
-namespace Arno1979\HookTest\EventListener;
+namespace Arno1979\PdfFilename\EventListener;
 
 use Contao\CoreBundle\ServiceAnnotation\Hook;
 use Contao\ModuleArticle;

@@ -1,5 +1,5 @@
 {
-    "name": "arno1979/contao-hook-test",
+    "name": "arno1979/contao-pdf-filename-mod",
     "type": "contao-bundle",
     "description": "Test hook implementation via service tagging",
     "license": "LGPL-3.0-or-later",
@@ -24,11 +24,11 @@
         "branch-alias": {
             "dev-develop": "1.0.x-dev"
         },
-        "contao-manager-plugin": "Arno1979\\HookTest\\ContaoManager\\Plugin"
+        "contao-manager-plugin": "Arno1979\\PdfFilename\\ContaoManager\\Plugin"
     },
     "autoload": {
         "psr-4": {
-            "Arno1979\\HookTest\\": "src/"
+            "Arno1979\\PdfFilename\\": "src/"
         }
     }
 }
