@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": "^7.1",
-        "contao/core-bundle": "~4.3"
+        "contao/core-bundle": "~4.8"
     },
     "conflict": {
         "contao/core": "*",
@@ -29,15 +29,6 @@
     "autoload": {
         "psr-4": {
             "Arno1979\\PdfFilenameMod\\": "src/"
-        },
-        "classmap": [
-            "src/Resources/contao/"
-        ],
-        "exclude-from-classmap": [
-            "src/Resources/contao/config/",
-            "src/Resources/contao/dca/",
-            "src/Resources/contao/languages/",
-            "src/Resources/contao/templates/"
-        ]
+        }
     }
 }

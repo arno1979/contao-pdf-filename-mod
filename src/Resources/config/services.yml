@@ -1,0 +1,9 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        public: false
+
+    Arno1979\PdfFilenameMod\:
+        resource: ../../../src
+        exclude: ../../../src/{Entity,Migrations,Resources,Tests}
